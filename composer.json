@@ -1,6 +1,7 @@
 {
     "name": "asp/hrbasics",
     "description": "Basic functionalities needed for HR apps",
+    "version":"1.1.0",
     "require": {
         "illuminate/html": "^5.0@dev"
     },
@@ -11,7 +12,6 @@
             "email": "asp15c@my.fsu.edu"
         }
     ],
-    "minimum-stability": "dev",
     "autoload":{
         "psr-4":{
             "asp\\hrbasics\\":"src/"
