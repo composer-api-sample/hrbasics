@@ -1,5 +1,5 @@
 <?php
-namespace asp15c\hrbasics;
+namespace asp\hrbasics;
 use Illuminate\Support\ServiceProvider;
 class HRBasicsServiceProvider extends ServiceProvider{
 	public function boot()
@@ -23,8 +23,8 @@ class HRBasicsServiceProvider extends ServiceProvider{
      */
     public function register()
     {
-        // $this->app->make('asp\commenter\CommentController');
-        // include __DIR__.'/routes.php';
+        $this->app->make('asp\hrbasics\AdminController');
+        include __DIR__.'/routes.php';
         // $this->app->bind('asp\commenter\Helpers\Contracts\CommenterContract',function(){
         //     return new Commenter();
         // });

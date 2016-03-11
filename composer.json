@@ -1,5 +1,5 @@
 {
-    "name": "asp15c/hrbasics",
+    "name": "asp/hrbasics",
     "description": "Basic functionalities needed for HR apps",
     "require": {
         "illuminate/html": "^5.0@dev"
